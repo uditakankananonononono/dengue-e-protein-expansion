@@ -1,0 +1,981 @@
+{
+ "denv3": {
+  "N": 955,
+  "gt_verdicts": {
+   "escape_5J7_insertion:269": {
+    "majority": "Q",
+    "maj_freq": 1.0,
+    "subs": {},
+    "dataset_ref": "?",
+    "verdict": "conserved"
+   },
+   "escape_5J7_insertion:270": {
+    "majority": "N",
+    "maj_freq": 0.9692,
+    "subs": {
+     "T": 29
+    },
+    "dataset_ref": "N",
+    "verdict": "variable"
+   },
+   "wahala_natural_variation:301": {
+    "majority": "T",
+    "maj_freq": 0.965,
+    "subs": {
+     "S": 26,
+     "L": 5,
+     "M": 2
+    },
+    "dataset_ref": "T",
+    "verdict": "variable"
+   },
+   "wahala_natural_variation:302": {
+    "majority": "N",
+    "maj_freq": 0.9968,
+    "subs": {
+     "S": 3
+    },
+    "dataset_ref": "N",
+    "verdict": "variable"
+   },
+   "wahala_natural_variation:329": {
+    "majority": "A",
+    "maj_freq": 0.9554,
+    "subs": {
+     "V": 42
+    },
+    "dataset_ref": "A",
+    "verdict": "variable"
+   },
+   "wahala_natural_variation:380": {
+    "majority": "T",
+    "maj_freq": 0.8086,
+    "subs": {
+     "I": 176,
+     "A": 2
+    },
+    "dataset_ref": "I",
+    "verdict": "variable"
+   },
+   "wahala_natural_variation:386": {
+    "majority": "K",
+    "maj_freq": 0.9883,
+    "subs": {
+     "R": 11
+    },
+    "dataset_ref": "K",
+    "verdict": "variable"
+   },
+   "FL_variant_2023:103": {
+    "majority": "N",
+    "maj_freq": 1.0,
+    "subs": {},
+    "dataset_ref": "?",
+    "verdict": "conserved"
+   },
+   "FL_variant_2023:106": {
+    "majority": "G",
+    "maj_freq": 1.0,
+    "subs": {},
+    "dataset_ref": "?",
+    "verdict": "conserved"
+   }
+  },
+  "watchlist": [
+   {
+    "pos": 380,
+    "from": "T",
+    "to": "I",
+    "n": 176,
+    "freq": 0.18429,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.184293
+   },
+   {
+    "pos": 158,
+    "from": "I",
+    "to": "V",
+    "n": 174,
+    "freq": 0.1822,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.182199
+   },
+   {
+    "pos": 228,
+    "from": "T",
+    "to": "I",
+    "n": 75,
+    "freq": 0.07853,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.078534
+   },
+   {
+    "pos": 68,
+    "from": "I",
+    "to": "V",
+    "n": 29,
+    "freq": 0.03037,
+    "epitopes": 2,
+    "domain": "DII",
+    "EERS": 0.060733
+   },
+   {
+    "pos": 471,
+    "from": "T",
+    "to": "I",
+    "n": 52,
+    "freq": 0.05445,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.05445
+   },
+   {
+    "pos": 124,
+    "from": "P",
+    "to": "L",
+    "n": 49,
+    "freq": 0.05131,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.051309
+   },
+   {
+    "pos": 132,
+    "from": "Y",
+    "to": "H",
+    "n": 49,
+    "freq": 0.05131,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.051309
+   },
+   {
+    "pos": 329,
+    "from": "A",
+    "to": "V",
+    "n": 42,
+    "freq": 0.04398,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.043979
+   },
+   {
+    "pos": 479,
+    "from": "A",
+    "to": "V",
+    "n": 35,
+    "freq": 0.03665,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.036649
+   },
+   {
+    "pos": 169,
+    "from": "T",
+    "to": "V",
+    "n": 31,
+    "freq": 0.03246,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.032461
+   },
+   {
+    "pos": 231,
+    "from": "R",
+    "to": "K",
+    "n": 31,
+    "freq": 0.03246,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.032461
+   },
+   {
+    "pos": 452,
+    "from": "V",
+    "to": "I",
+    "n": 30,
+    "freq": 0.03141,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.031414
+   },
+   {
+    "pos": 270,
+    "from": "N",
+    "to": "T",
+    "n": 29,
+    "freq": 0.03037,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.030366
+   },
+   {
+    "pos": 303,
+    "from": "T",
+    "to": "A",
+    "n": 29,
+    "freq": 0.03037,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.030366
+   },
+   {
+    "pos": 383,
+    "from": "N",
+    "to": "K",
+    "n": 29,
+    "freq": 0.03037,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.030366
+   },
+   {
+    "pos": 81,
+    "from": "V",
+    "to": "I",
+    "n": 28,
+    "freq": 0.02932,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.029319
+   },
+   {
+    "pos": 171,
+    "from": "A",
+    "to": "V",
+    "n": 26,
+    "freq": 0.02723,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.027225
+   },
+   {
+    "pos": 301,
+    "from": "T",
+    "to": "S",
+    "n": 26,
+    "freq": 0.02723,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.027225
+   },
+   {
+    "pos": 377,
+    "from": "V",
+    "to": "I",
+    "n": 25,
+    "freq": 0.02618,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.026178
+   },
+   {
+    "pos": 219,
+    "from": "T",
+    "to": "A",
+    "n": 24,
+    "freq": 0.02513,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.025131
+   },
+   {
+    "pos": 362,
+    "from": "P",
+    "to": "L",
+    "n": 22,
+    "freq": 0.02304,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.023037
+   },
+   {
+    "pos": 489,
+    "from": "A",
+    "to": "V",
+    "n": 21,
+    "freq": 0.02199,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.02199
+   },
+   {
+    "pos": 323,
+    "from": "E",
+    "to": "Q",
+    "n": 19,
+    "freq": 0.0199,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.019895
+   },
+   {
+    "pos": 271,
+    "from": "S",
+    "to": "T",
+    "n": 18,
+    "freq": 0.01885,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.018848
+   },
+   {
+    "pos": 139,
+    "from": "V",
+    "to": "I",
+    "n": 15,
+    "freq": 0.01571,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.015707
+   },
+   {
+    "pos": 226,
+    "from": "T",
+    "to": "I",
+    "n": 14,
+    "freq": 0.01466,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.01466
+   },
+   {
+    "pos": 223,
+    "from": "T",
+    "to": "I",
+    "n": 9,
+    "freq": 0.00942,
+    "epitopes": 1,
+    "domain": "DII",
+    "EERS": 0.014136
+   },
+   {
+    "pos": 160,
+    "from": "A",
+    "to": "V",
+    "n": 13,
+    "freq": 0.01361,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.013613
+   },
+   {
+    "pos": 386,
+    "from": "K",
+    "to": "R",
+    "n": 11,
+    "freq": 0.01152,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.011518
+   },
+   {
+    "pos": 459,
+    "from": "V",
+    "to": "A",
+    "n": 11,
+    "freq": 0.01152,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.011518
+   },
+   {
+    "pos": 172,
+    "from": "I",
+    "to": "V",
+    "n": 10,
+    "freq": 0.01047,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.010471
+   },
+   {
+    "pos": 459,
+    "from": "V",
+    "to": "I",
+    "n": 9,
+    "freq": 0.00942,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.009424
+   },
+   {
+    "pos": 469,
+    "from": "K",
+    "to": "R",
+    "n": 9,
+    "freq": 0.00942,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.009424
+   },
+   {
+    "pos": 168,
+    "from": "T",
+    "to": "I",
+    "n": 8,
+    "freq": 0.00838,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.008377
+   },
+   {
+    "pos": 81,
+    "from": "V",
+    "to": "T",
+    "n": 7,
+    "freq": 0.00733,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.00733
+   },
+   {
+    "pos": 124,
+    "from": "P",
+    "to": "S",
+    "n": 7,
+    "freq": 0.00733,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.00733
+   },
+   {
+    "pos": 322,
+    "from": "V",
+    "to": "I",
+    "n": 7,
+    "freq": 0.00733,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.00733
+   },
+   {
+    "pos": 68,
+    "from": "I",
+    "to": "M",
+    "n": 3,
+    "freq": 0.00314,
+    "epitopes": 2,
+    "domain": "DII",
+    "EERS": 0.006283
+   },
+   {
+    "pos": 307,
+    "from": "K",
+    "to": "R",
+    "n": 3,
+    "freq": 0.00314,
+    "epitopes": 2,
+    "domain": "DIII",
+    "EERS": 0.006283
+   },
+   {
+    "pos": 310,
+    "from": "V",
+    "to": "I",
+    "n": 6,
+    "freq": 0.00628,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.006283
+   }
+  ],
+  "n_drift_sites": 2,
+  "drift_sites": [
+   [
+    219,
+    "A",
+    "T",
+    0.975,
+    0
+   ],
+   [
+    404,
+    "E",
+    "A",
+    0.999,
+    0
+   ]
+  ],
+  "domain_mean_freq": {
+   "DI": 0.00269,
+   "DII": 0.00275,
+   "DIII": 0.00512,
+   "stem_anchor": 0.00226
+  },
+  "epitope_mean_freq": {
+   "EDE1_C8": 0.0012,
+   "EDE2_B7": 0.00149,
+   "FLE_fusion_loop": 0.00016,
+   "glycan_sites": 0.0,
+   "5J7_quaternary": 0.00115
+  }
+ },
+ "denv4": {
+  "N": 129,
+  "gt_verdicts": {
+   "escape_5H2:174": {
+    "majority": "E",
+    "maj_freq": 0.4922,
+    "subs": {
+     "K": 55,
+     "N": 10
+    },
+    "dataset_ref": "K",
+    "verdict": "variable"
+   },
+   "escape_DV4-E75:330": {
+    "majority": "G",
+    "maj_freq": 1.0,
+    "subs": {},
+    "dataset_ref": "?",
+    "verdict": "conserved"
+   },
+   "escape_DV4-E75:361": {
+    "majority": "T",
+    "maj_freq": 0.9922,
+    "subs": {
+     "I": 1
+    },
+    "dataset_ref": "T",
+    "verdict": "conserved"
+   },
+   "escape_DV4-E75:364": {
+    "majority": "V",
+    "maj_freq": 0.9767,
+    "subs": {
+     "I": 3
+    },
+    "dataset_ref": "V",
+    "verdict": "variable"
+   }
+  },
+  "watchlist": [
+   {
+    "pos": 64,
+    "from": "S",
+    "to": "L",
+    "n": 64,
+    "freq": 0.49612,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.496124
+   },
+   {
+    "pos": 354,
+    "from": "A",
+    "to": "S",
+    "n": 64,
+    "freq": 0.49612,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.496124
+   },
+   {
+    "pos": 222,
+    "from": "T",
+    "to": "A",
+    "n": 61,
+    "freq": 0.47287,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.472868
+   },
+   {
+    "pos": 174,
+    "from": "E",
+    "to": "K",
+    "n": 55,
+    "freq": 0.42636,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.426357
+   },
+   {
+    "pos": 357,
+    "from": "L",
+    "to": "F",
+    "n": 52,
+    "freq": 0.4031,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.403101
+   },
+   {
+    "pos": 233,
+    "from": "Y",
+    "to": "H",
+    "n": 50,
+    "freq": 0.3876,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.387597
+   },
+   {
+    "pos": 351,
+    "from": "V",
+    "to": "I",
+    "n": 45,
+    "freq": 0.34884,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.348837
+   },
+   {
+    "pos": 455,
+    "from": "I",
+    "to": "V",
+    "n": 43,
+    "freq": 0.33333,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.333333
+   },
+   {
+    "pos": 461,
+    "from": "F",
+    "to": "L",
+    "n": 43,
+    "freq": 0.33333,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.333333
+   },
+   {
+    "pos": 46,
+    "from": "T",
+    "to": "I",
+    "n": 40,
+    "freq": 0.31008,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.310078
+   },
+   {
+    "pos": 227,
+    "from": "S",
+    "to": "L",
+    "n": 39,
+    "freq": 0.30233,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.302326
+   },
+   {
+    "pos": 96,
+    "from": "V",
+    "to": "M",
+    "n": 38,
+    "freq": 0.29457,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.294574
+   },
+   {
+    "pos": 203,
+    "from": "K",
+    "to": "T",
+    "n": 38,
+    "freq": 0.29457,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.294574
+   },
+   {
+    "pos": 384,
+    "from": "N",
+    "to": "E",
+    "n": 38,
+    "freq": 0.29457,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.294574
+   },
+   {
+    "pos": 429,
+    "from": "F",
+    "to": "L",
+    "n": 38,
+    "freq": 0.29457,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.294574
+   },
+   {
+    "pos": 329,
+    "from": "A",
+    "to": "T",
+    "n": 37,
+    "freq": 0.28682,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.286822
+   },
+   {
+    "pos": 478,
+    "from": "T",
+    "to": "S",
+    "n": 29,
+    "freq": 0.22481,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.224806
+   },
+   {
+    "pos": 494,
+    "from": "Q",
+    "to": "H",
+    "n": 29,
+    "freq": 0.22481,
+    "epitopes": 0,
+    "domain": "stem_anchor",
+    "EERS": 0.224806
+   },
+   {
+    "pos": 6,
+    "from": "V",
+    "to": "I",
+    "n": 13,
+    "freq": 0.10078,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.100775
+   },
+   {
+    "pos": 120,
+    "from": "S",
+    "to": "L",
+    "n": 13,
+    "freq": 0.10078,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.100775
+   },
+   {
+    "pos": 384,
+    "from": "N",
+    "to": "D",
+    "n": 13,
+    "freq": 0.10078,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.100775
+   },
+   {
+    "pos": 172,
+    "from": "E",
+    "to": "G",
+    "n": 10,
+    "freq": 0.07752,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.077519
+   },
+   {
+    "pos": 174,
+    "from": "E",
+    "to": "N",
+    "n": 10,
+    "freq": 0.07752,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.077519
+   },
+   {
+    "pos": 151,
+    "from": "V",
+    "to": "A",
+    "n": 3,
+    "freq": 0.02326,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.023256
+   },
+   {
+    "pos": 207,
+    "from": "L",
+    "to": "I",
+    "n": 3,
+    "freq": 0.02326,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.023256
+   },
+   {
+    "pos": 355,
+    "from": "T",
+    "to": "I",
+    "n": 3,
+    "freq": 0.02326,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.023256
+   },
+   {
+    "pos": 364,
+    "from": "V",
+    "to": "I",
+    "n": 3,
+    "freq": 0.02326,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.023256
+   },
+   {
+    "pos": 128,
+    "from": "N",
+    "to": "Y",
+    "n": 2,
+    "freq": 0.0155,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.015504
+   },
+   {
+    "pos": 147,
+    "from": "D",
+    "to": "N",
+    "n": 2,
+    "freq": 0.0155,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.015504
+   },
+   {
+    "pos": 163,
+    "from": "T",
+    "to": "M",
+    "n": 2,
+    "freq": 0.0155,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.015504
+   },
+   {
+    "pos": 212,
+    "from": "W",
+    "to": "R",
+    "n": 2,
+    "freq": 0.0155,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.015504
+   },
+   {
+    "pos": 214,
+    "from": "L",
+    "to": "W",
+    "n": 2,
+    "freq": 0.0155,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.015504
+   },
+   {
+    "pos": 243,
+    "from": "P",
+    "to": "S",
+    "n": 2,
+    "freq": 0.0155,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.015504
+   },
+   {
+    "pos": 292,
+    "from": "L",
+    "to": "V",
+    "n": 2,
+    "freq": 0.0155,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.015504
+   },
+   {
+    "pos": 342,
+    "from": "V",
+    "to": "I",
+    "n": 2,
+    "freq": 0.0155,
+    "epitopes": 0,
+    "domain": "DIII",
+    "EERS": 0.015504
+   },
+   {
+    "pos": 155,
+    "from": "T",
+    "to": "I",
+    "n": 1,
+    "freq": 0.00775,
+    "epitopes": 1,
+    "domain": "DI",
+    "EERS": 0.011628
+   },
+   {
+    "pos": 157,
+    "from": "N",
+    "to": "S",
+    "n": 1,
+    "freq": 0.00775,
+    "epitopes": 1,
+    "domain": "DI",
+    "EERS": 0.011628
+   },
+   {
+    "pos": 19,
+    "from": "A",
+    "to": "T",
+    "n": 1,
+    "freq": 0.00775,
+    "epitopes": 0,
+    "domain": "DI",
+    "EERS": 0.007752
+   },
+   {
+    "pos": 91,
+    "from": "I",
+    "to": "T",
+    "n": 1,
+    "freq": 0.00775,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.007752
+   },
+   {
+    "pos": 114,
+    "from": "V",
+    "to": "M",
+    "n": 1,
+    "freq": 0.00775,
+    "epitopes": 0,
+    "domain": "DII",
+    "EERS": 0.007752
+   }
+  ],
+  "n_drift_sites": 1,
+  "drift_sites": [
+   [
+    163,
+    "M",
+    "T",
+    0.984,
+    0
+   ]
+  ],
+  "domain_mean_freq": {
+   "DI": 0.00871,
+   "DII": 0.01523,
+   "DIII": 0.02134,
+   "stem_anchor": 0.01443
+  },
+  "epitope_mean_freq": {
+   "EDE1_C8": 0.0,
+   "EDE2_B7": 0.00055,
+   "FLE_fusion_loop": 0.0,
+   "glycan_sites": 0.0
+  }
+ }
+}

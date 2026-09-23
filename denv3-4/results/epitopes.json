@@ -1,0 +1,288 @@
+{
+ "denv3": {
+  "EDE1_C8": {
+   "residues": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    77,
+    83,
+    84,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    113,
+    115,
+    148,
+    156,
+    244,
+    245,
+    246,
+    247,
+    272,
+    273,
+    307,
+    308,
+    309,
+    321,
+    360
+   ],
+   "source": "PDB 4UTA contact analysis <5A (this work)",
+   "role": "feature"
+  },
+  "EDE2_B7": {
+   "residues": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    82,
+    97,
+    98,
+    99,
+    101,
+    102,
+    103,
+    104,
+    105,
+    113,
+    152,
+    153,
+    154,
+    155,
+    243,
+    244,
+    245,
+    246,
+    247
+   ],
+   "source": "PDB 4UT6 contact analysis <5A (this work)",
+   "role": "feature"
+  },
+  "FLE_fusion_loop": {
+   "residues": [
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+   ],
+   "source": "canonical fusion loop 98-110 (DENV-2 numbering mapped)",
+   "role": "feature"
+  },
+  "glycan_sites": {
+   "residues": [
+    67,
+    153
+   ],
+   "source": "N67/N153 glycosylation sites (EDE dependence)",
+   "role": "feature"
+  },
+  "5J7_quaternary": {
+   "residues": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    58,
+    73,
+    74,
+    101,
+    106,
+    123,
+    126,
+    128,
+    130,
+    131,
+    133,
+    134,
+    148,
+    196,
+    198,
+    200,
+    201,
+    223,
+    224,
+    227,
+    274,
+    276,
+    307,
+    308,
+    309
+   ],
+   "source": "Fibriansah 2015 Science PMC4346626 Table 1",
+   "role": "feature"
+  },
+  "escape_5J7_insertion": {
+   "residues": [
+    269,
+    270
+   ],
+   "source": "de Alwis 2012 PNAS 1200566109",
+   "role": "ground_truth"
+  },
+  "wahala_natural_variation": {
+   "residues": [
+    301,
+    302,
+    329,
+    380,
+    386
+   ],
+   "source": "Wahala 2010 PLoS Pathog PMC2841629",
+   "role": "ground_truth"
+  },
+  "FL_variant_2023": {
+   "residues": [
+    103,
+    106
+   ],
+   "source": "eLife 87555 PMC10508882",
+   "role": "ground_truth"
+  }
+ },
+ "denv4": {
+  "EDE1_C8": {
+   "residues": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    77,
+    83,
+    84,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    113,
+    115,
+    148,
+    158,
+    246,
+    247,
+    248,
+    249,
+    274,
+    275,
+    309,
+    310,
+    311,
+    323,
+    362
+   ],
+   "source": "PDB 4UTA contact analysis <5A (this work)",
+   "role": "feature"
+  },
+  "EDE2_B7": {
+   "residues": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    82,
+    97,
+    98,
+    99,
+    101,
+    102,
+    103,
+    104,
+    105,
+    113,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    245,
+    246,
+    247,
+    248,
+    249
+   ],
+   "source": "PDB 4UT6 contact analysis <5A (this work)",
+   "role": "feature"
+  },
+  "FLE_fusion_loop": {
+   "residues": [
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+   ],
+   "source": "canonical fusion loop 98-110 (DENV-2 numbering mapped)",
+   "role": "feature"
+  },
+  "glycan_sites": {
+   "residues": [
+    67,
+    153
+   ],
+   "source": "N67/N153 glycosylation sites (EDE dependence)",
+   "role": "feature"
+  },
+  "escape_5H2": {
+   "residues": [
+    174
+   ],
+   "source": "JVI 2007 5H2 escape K174",
+   "role": "ground_truth"
+  },
+  "escape_DV4-E75": {
+   "residues": [
+    330,
+    361,
+    364
+   ],
+   "source": "Sukupolvi-Petty 2013 JVI PMC3754038",
+   "role": "ground_truth"
+  }
+ }
+}
