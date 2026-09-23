@@ -96,7 +96,7 @@ The pipeline must recover known biology before any novel claim: the N67 and N153
 | Accessions downloaded (2023+, >=1400 nt) | 1001 | 135 |
 | QC-passed isolates in analysis | 955 | 129 |
 | Collection-date span | 2023 to 2026-04-17 | 2023 to 2025-11-05 |
-| Distinct geographies | 25 | 20 |
+| Distinct countries | 33 | 11 |
 | Dominant lineage | 3III_B.3.2 (660) | 4II_B.1.3 (50) |
 
 Table: Table 1. Cohort summary.
@@ -105,7 +105,7 @@ Table: Table 1. Cohort summary.
 ![Cohort composition: isolates by geography (left) and by nextclade lineage (right) for DENV-3 (top) and DENV-4 (bottom).](../results/figures/F_cohort.png){width=100%}
 
 
-The final cohort comprises 955 DENV-3 and 129 DENV-4 QC-passed isolates collected from 2023 onward (Figure 1). DENV-3 sampling is dominated by the American re-emergence (USA travel surveillance in Florida and California, Dominican Republic, Colombia, French Guiana, Cuba) and South Asia (India, Bangladesh), with African representation (Mali, Ethiopia). 67% of DENV-3 isolates (670/955) belong to lineage 3III_B.3.2 - the lineage driving the Brazilian re-emergence - with the remainder spread across 3III_B.3, 3III_B.2.1, 3III_C.1 and genotype I lineages. DENV-4 sampling spans Thailand, India, China (Yunnan), Malaysia, Indonesia, the Solomon Islands, Cuba and others, split between genotypes I and II (dominant: 4II_B.1.3, 50/129). We note the sampling caveats honestly: travel-surveillance sequencing in the USA is over-represented, and DENV-4's smaller N limits statistical power; every downstream claim is made with these counts in view.
+The final cohort comprises 955 DENV-3 and 129 DENV-4 QC-passed isolates collected from 2023 onward (Figure 1). DENV-3 sampling is dominated by the American re-emergence (USA travel surveillance in Florida and California, Dominican Republic, Colombia, French Guiana, Cuba) and South Asia (India, Bangladesh), with African representation (Mali, Ethiopia). 69% of QC-passed DENV-3 isolates (660/955) belong to lineage 3III_B.3.2 - the lineage driving the Brazilian re-emergence - with the remainder spread across 3III_B.3, 3III_B.2.1, 3III_C.1 and genotype I lineages. DENV-4 sampling spans Thailand, India, China (Yunnan), Malaysia, Indonesia, the Solomon Islands, Cuba and others, split between genotypes I and II (dominant: 4II_B.1.3, 50/129). We note the sampling caveats honestly: travel-surveillance sequencing in the USA is over-represented, and DENV-4's smaller N limits statistical power; every downstream claim is made with these counts in view.
 
 ## 4.2 The per-residue atlases
 
