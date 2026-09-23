@@ -1,0 +1,25 @@
+{
+ "denv3": {
+  "DIII_vs_rest_MannWhitney_p": 0.0029979144356266215,
+  "DIII_mean": 0.0051167010309278345,
+  "rest_mean": 0.002610126262626263,
+  "GT_in_variable": 5,
+  "GT_total": 9,
+  "epitope_recovery_fisher_p": 0.00013002075666454144,
+  "epitope_recovery_odds": 40.625
+ },
+ "denv4": {
+  "DIII_vs_rest_MannWhitney_p": 0.19267933669993426,
+  "DIII_mean": 0.021337628865979383,
+  "rest_mean": 0.012893768844221104,
+  "GT_in_variable": 3,
+  "GT_total": 4,
+  "epitope_recovery_fisher_p": 0.001754547973035368,
+  "epitope_recovery_odds": 69.0
+ },
+ "cross_serotype_profile_spearman": {
+  "rho": 0.05899250272050563,
+  "p": 0.19098859220158557,
+  "n": 493
+ }
+}
