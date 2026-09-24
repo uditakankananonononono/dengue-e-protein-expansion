@@ -1,0 +1,289 @@
+{
+ "denv1": {
+  "1F4_structural": {
+   "residues": [
+    51,
+    155,
+    156,
+    162,
+    163,
+    164,
+    165,
+    171,
+    176,
+    177
+   ],
+   "source": "PDB 4C2I contact analysis <=6A (this work); Fibriansah 2014 Science 4C2I",
+   "role": "feature"
+  },
+  "E106_DIII": {
+   "residues": [
+    310,
+    325,
+    328,
+    330,
+    361,
+    362,
+    364,
+    385
+   ],
+   "source": "Shrestha 2010 JVI PMC3312934 (K310,P325,G328,D330,K361,E362,P364,K385; T329 escape kept as ground truth)",
+   "role": "feature"
+  },
+  "EDE1_C8": {
+   "residues": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    77,
+    83,
+    84,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    113,
+    115,
+    148,
+    158,
+    246,
+    247,
+    248,
+    249,
+    274,
+    275,
+    309,
+    310,
+    311,
+    323,
+    362
+   ],
+   "source": "PDB 4UTA contact analysis <5A (DENV-2 numbering mapped)",
+   "role": "feature"
+  },
+  "EDE2_B7": {
+   "residues": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    82,
+    97,
+    98,
+    99,
+    101,
+    102,
+    103,
+    104,
+    105,
+    113,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    245,
+    246,
+    247,
+    248,
+    249
+   ],
+   "source": "PDB 4UT6 contact analysis <5A (DENV-2 numbering mapped)",
+   "role": "feature"
+  },
+  "FLE_fusion_loop": {
+   "residues": [
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+   ],
+   "source": "canonical fusion loop 98-110 (mapped)",
+   "role": "feature"
+  },
+  "glycan_sites": {
+   "residues": [
+    67,
+    153
+   ],
+   "source": "N67/N153 E glycosylation (EDE dependence)",
+   "role": "feature"
+  },
+  "escape_1F4": {
+   "residues": [
+    47,
+    274
+   ],
+   "source": "de Alwis 2012 PNAS 1200566109 (K47E, G274E; DENV-1 native)",
+   "role": "ground_truth"
+  },
+  "escape_E106": {
+   "residues": [
+    329
+   ],
+   "source": "PMC3312934 (T329A; DENV-1 native)",
+   "role": "ground_truth"
+  }
+ },
+ "denv2": {
+  "2D22_structural": {
+   "residues": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    101,
+    102,
+    103,
+    104,
+    152,
+    153
+   ],
+   "source": "PDB 4UIF contact analysis <=6A (this work); de Alwis 2015 Science",
+   "role": "feature"
+  },
+  "EDE1_C8": {
+   "residues": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    77,
+    83,
+    84,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    113,
+    115,
+    148,
+    158,
+    246,
+    247,
+    248,
+    249,
+    274,
+    275,
+    309,
+    310,
+    311,
+    323,
+    362
+   ],
+   "source": "PDB 4UTA contact analysis <5A (DENV-2 numbering)",
+   "role": "feature"
+  },
+  "EDE2_B7": {
+   "residues": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    82,
+    97,
+    98,
+    99,
+    101,
+    102,
+    103,
+    104,
+    105,
+    113,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    245,
+    246,
+    247,
+    248,
+    249
+   ],
+   "source": "PDB 4UT6 contact analysis <5A (DENV-2 numbering)",
+   "role": "feature"
+  },
+  "FLE_fusion_loop": {
+   "residues": [
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+   ],
+   "source": "canonical fusion loop 98-110",
+   "role": "feature"
+  },
+  "glycan_sites": {
+   "residues": [
+    67,
+    153
+   ],
+   "source": "N67/N153 E glycosylation (EDE dependence)",
+   "role": "feature"
+  },
+  "escape_2D22": {
+   "residues": [
+    323
+   ],
+   "source": "de Alwis 2012 PNAS 1200566109 (R323G; DENV-2 native)",
+   "role": "ground_truth"
+  },
+  "2D22_associated": {
+   "residues": [
+    282,
+    362
+   ],
+   "source": "de Alwis 2012 PNAS Fig 3H (H282, D362 within 2D22/CR4354 footprint region)",
+   "role": "ground_truth"
+  }
+ }
+}

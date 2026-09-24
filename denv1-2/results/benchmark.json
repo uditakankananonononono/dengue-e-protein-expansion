@@ -1,0 +1,54 @@
+{
+ "denv1": {
+  "n_variable_positions": 171,
+  "n_ground_truth": 2,
+  "AUROC_EERS": 0.3402,
+  "AUROC_freq_only": 0.3817,
+  "AUROC_cons_only": 0.571,
+  "top20_EERS_ground_truth_hits": 0,
+  "top20_freq_ground_truth_hits": 0,
+  "positive_controls_conserved": {
+   "pos67_N": {
+    "ref": "N",
+    "freq": 0.0007,
+    "n_var": 1
+   },
+   "pos101_W": {
+    "ref": "W",
+    "freq": 0.0,
+    "n_var": 0
+   },
+   "pos153_N": {
+    "ref": "N",
+    "freq": 0.0,
+    "n_var": 0
+   }
+  }
+ },
+ "denv2": {
+  "n_variable_positions": 140,
+  "n_ground_truth": 2,
+  "AUROC_EERS": 0.2174,
+  "AUROC_freq_only": 0.0833,
+  "AUROC_cons_only": 0.4601,
+  "top20_EERS_ground_truth_hits": 0,
+  "top20_freq_ground_truth_hits": 0,
+  "positive_controls_conserved": {
+   "pos67_N": {
+    "ref": "N",
+    "freq": 0.0,
+    "n_var": 0
+   },
+   "pos101_W": {
+    "ref": "W",
+    "freq": 0.00063,
+    "n_var": 1
+   },
+   "pos153_N": {
+    "ref": "N",
+    "freq": 0.0,
+    "n_var": 0
+   }
+  }
+ }
+}
