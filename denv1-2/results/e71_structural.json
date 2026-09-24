@@ -1,0 +1,192 @@
+{
+ "2D22 (4UIF)": {
+  "pdb": "4UIF.pdb",
+  "e71_resname": "ALA",
+  "fab_residues_within_6A": 4,
+  "n_close_sidechain_lost": 0,
+  "contacts": [
+   {
+    "fab_chain": "I",
+    "fab_resnum": 56,
+    "fab_resname": "GLY",
+    "min_dist_A": 4.15,
+    "min_dist_lost_atoms_A": null,
+    "lost_e71_atoms": [],
+    "classification": "backbone_or_CB_contact_retained"
+   },
+   {
+    "fab_chain": "K",
+    "fab_resnum": 56,
+    "fab_resname": "GLY",
+    "min_dist_A": 4.25,
+    "min_dist_lost_atoms_A": null,
+    "lost_e71_atoms": [],
+    "classification": "backbone_or_CB_contact_retained"
+   },
+   {
+    "fab_chain": "K",
+    "fab_resnum": 57,
+    "fab_resname": "GLY",
+    "min_dist_A": 5.47,
+    "min_dist_lost_atoms_A": null,
+    "lost_e71_atoms": [],
+    "classification": "backbone_or_CB_contact_retained"
+   },
+   {
+    "fab_chain": "K",
+    "fab_resnum": 55,
+    "fab_resname": "PHE",
+    "min_dist_A": 5.8,
+    "min_dist_lost_atoms_A": null,
+    "lost_e71_atoms": [],
+    "classification": "backbone_or_CB_contact_retained"
+   }
+  ]
+ },
+ "EDE1 C8 (4UTA)": {
+  "pdb": "4UTA.pdb",
+  "e71_resname": "GLU",
+  "fab_residues_within_6A": 2,
+  "n_close_sidechain_lost": 0,
+  "contacts": [
+   {
+    "fab_chain": "M",
+    "fab_resnum": 94,
+    "fab_resname": "TRP",
+    "min_dist_A": 3.59,
+    "min_dist_lost_atoms_A": 4.05,
+    "lost_e71_atoms": [
+     "CD",
+     "CG",
+     "OE1"
+    ],
+    "classification": "sidechain_contact_within_6A_weakened"
+   },
+   {
+    "fab_chain": "L",
+    "fab_resnum": 94,
+    "fab_resname": "TRP",
+    "min_dist_A": 3.65,
+    "min_dist_lost_atoms_A": 4.08,
+    "lost_e71_atoms": [
+     "CD",
+     "CG",
+     "OE1"
+    ],
+    "classification": "sidechain_contact_within_6A_weakened"
+   }
+  ]
+ },
+ "EDE2 B7 (4UT6)": {
+  "pdb": "4UT6.pdb",
+  "e71_resname": "GLU",
+  "fab_residues_within_6A": 8,
+  "n_close_sidechain_lost": 4,
+  "contacts": [
+   {
+    "fab_chain": "M",
+    "fab_resnum": 95,
+    "fab_resname": "LYS",
+    "min_dist_A": 3.07,
+    "min_dist_lost_atoms_A": 3.07,
+    "lost_e71_atoms": [
+     "CD",
+     "CG",
+     "OE1",
+     "OE2"
+    ],
+    "classification": "close_sidechain_contact_lost_in_E71A"
+   },
+   {
+    "fab_chain": "L",
+    "fab_resnum": 95,
+    "fab_resname": "LYS",
+    "min_dist_A": 3.18,
+    "min_dist_lost_atoms_A": 3.18,
+    "lost_e71_atoms": [
+     "CD",
+     "CG",
+     "OE1",
+     "OE2"
+    ],
+    "classification": "close_sidechain_contact_lost_in_E71A"
+   },
+   {
+    "fab_chain": "H",
+    "fab_resnum": 100,
+    "fab_resname": "ASN",
+    "min_dist_A": 3.25,
+    "min_dist_lost_atoms_A": 3.25,
+    "lost_e71_atoms": [
+     "CD",
+     "CG",
+     "OE1",
+     "OE2"
+    ],
+    "classification": "close_sidechain_contact_lost_in_E71A"
+   },
+   {
+    "fab_chain": "I",
+    "fab_resnum": 100,
+    "fab_resname": "ASN",
+    "min_dist_A": 3.26,
+    "min_dist_lost_atoms_A": 3.26,
+    "lost_e71_atoms": [
+     "CD",
+     "CG",
+     "OE1",
+     "OE2"
+    ],
+    "classification": "close_sidechain_contact_lost_in_E71A"
+   },
+   {
+    "fab_chain": "I",
+    "fab_resnum": 100,
+    "fab_resname": "PRO",
+    "min_dist_A": 3.58,
+    "min_dist_lost_atoms_A": 4.09,
+    "lost_e71_atoms": [
+     "CD",
+     "CG",
+     "OE2"
+    ],
+    "classification": "sidechain_contact_within_6A_weakened"
+   },
+   {
+    "fab_chain": "H",
+    "fab_resnum": 100,
+    "fab_resname": "PRO",
+    "min_dist_A": 3.62,
+    "min_dist_lost_atoms_A": 4.1,
+    "lost_e71_atoms": [
+     "CD",
+     "CG",
+     "OE2"
+    ],
+    "classification": "sidechain_contact_within_6A_weakened"
+   },
+   {
+    "fab_chain": "I",
+    "fab_resnum": 100,
+    "fab_resname": "ASP",
+    "min_dist_A": 5.71,
+    "min_dist_lost_atoms_A": 5.71,
+    "lost_e71_atoms": [
+     "CG"
+    ],
+    "classification": "sidechain_contact_within_6A_weakened"
+   },
+   {
+    "fab_chain": "H",
+    "fab_resnum": 100,
+    "fab_resname": "ASP",
+    "min_dist_A": 5.75,
+    "min_dist_lost_atoms_A": 5.75,
+    "lost_e71_atoms": [
+     "CG"
+    ],
+    "classification": "sidechain_contact_within_6A_weakened"
+   }
+  ]
+ }
+}

@@ -22,7 +22,9 @@ in this work), and scored each substitution with EERS (Epitope Exposure Risk Sco
 which combines substitution frequency, epitope membership and cross-serotype
 conservation. Headline findings: (i) in DENV-2, the E71A substitution inside the
 2D22/EDE structural footprint is fixed in 2II_F.1.1, the lineage family behind the
-2024-25 Reunion outbreak, and thus marks 99.4% of all 2023+ isolates - a completed
+2024-25 Reunion outbreak: alanine is the majority allele at residue 71 in 99.4% of
+the 872 isolates with complete aligned E translations, and 1448 of all 1577 QC-passed
+2023+ isolates (91.8%) carry E71A relative to the dataset reference - a completed
 lineage replacement at an antibody-relevant residue, driven by that clade's dominance
 rather than by independent recurrence across clades; (ii) in DENV-1, the 1F4
 type-specific neutralizing footprint is genuinely polymorphic in circulation
@@ -98,16 +100,33 @@ cross-protection from drift that threatens type-specific neutralization.
 The post-2022 period supplies an unusually large, dated, geotagged sequence record.
 This cohort (1494 DENV-1 and 2756 DENV-2 accessions passing date/length/geography
 filters) includes the 2024-25 Reunion DENV-2 outbreak, which dominates the DENV-2
-sample (940 QC-passed isolates) and is treated as such in interpretation.
+sample: 940 QC-passed isolates carry Reunion geography metadata, and the outbreak
+lineage 2II_F.1.1 itself accounts for 945 QC-passed isolates (including isolates
+sampled outside Reunion); the wider 2II_F.1.1 family, counting named sublineages,
+totals 1,376. This dominance is treated as such in interpretation.
 
 ## 2.4 Why reinfections can be worse: enhancement and the vaccine context
 
 Secondary infection with a different serotype carries the severe-disease risk
-(antibody-dependent enhancement). Cross-reactive epitopes staying frozen while
-type-specific epitopes drift is the pattern most compatible with that asymmetry:
-cross-reactive antibodies keep recognizing conserved machinery (and can enhance),
-while type-specific neutralization tracks a moving target. We test whether the
-DENV-1/DENV-2 expansion pattern matches the pattern found for DENV-3/DENV-4.
+(antibody-dependent enhancement, ADE): pre-existing cross-reactive antibodies that
+bind but do not neutralize the new serotype can increase viral uptake into
+Fc-receptor-bearing cells, and epidemiological cohort work has tied intermediate
+pre-existing antibody titers to elevated severe-disease risk (Halstead 2014;
+Katzelnick et al. 2017). The mechanistic asymmetry that matters for surveillance is
+between two antibody classes. Broadly cross-reactive antibodies (fusion-loop and
+EDE classes) are the ones most likely to pre-exist after any prior dengue infection
+or vaccination, and their protective value is limited and titer-dependent.
+Type-specific strongly neutralizing antibodies (1F4-class in DENV-1, 2D22-class in
+DENV-2) are the ones most likely to be sterilizing. Cross-reactive epitopes staying
+frozen while type-specific epitopes drift is therefore the worst-case configuration
+for reinfection severity: the antibodies that can enhance keep their targets, while
+the antibodies that protect face a moving target. Antigenic cartography shows
+within-serotype antigenic differences can be large enough to alter neutralization
+by human sera (Katzelnick et al. 2015), so even partial drift at type-specific
+epitopes is epidemiologically meaningful. We test whether the DENV-1/DENV-2
+expansion pattern matches the pattern found for DENV-3/DENV-4, and whether drift
+has begun to invade the cross-reactive footprints themselves - the one change that
+would alter the cross-reactive side of the asymmetry.
 
 # 3. Data and methods
 
@@ -183,10 +202,12 @@ led by China (Guangzhou, Yunnan, Hunan clusters), Brazil (Alagoas, Mato Grosso,
 Bahia), Mali, Thailand and travel-associated Italian and US-Florida cases; the six
 best-sampled DENV-1 lineages are 1V_E.1 (523), 1I_K.1.1.1 (236), 1I_K.1.1 (216),
 1V_D.1.1 (186), 1III_A.2 (77) and 1I_K.2 (67) - a genuinely multi-lineage sample.
-The DENV-2 sample is dominated by the Reunion 2024-25 outbreak clade 2II_F.1.1
-(945 of 1577 QC-passed isolates), with Costa Rica, Colombia, Central African
-Republic, Thailand, Brazil, Bangladesh, Solomon Islands and Laos contributing most
-of the remainder. This asymmetry - multi-lineage DENV-1 versus outbreak-dominated
+The DENV-2 sample is dominated by the Reunion 2024-25 outbreak: 945 of 1577
+QC-passed isolates are assigned to lineage 2II_F.1.1 itself (1,376 counting its
+named sublineages), and 940 carry Reunion geography metadata (936 of them in the
+wider 2II_F.1.1 family, 754 in 2II_F.1.1 proper); Costa Rica, Colombia,
+Central African Republic, Thailand, Brazil, Bangladesh, Solomon Islands and Laos
+contribute most of the remainder. This asymmetry - multi-lineage DENV-1 versus outbreak-dominated
 DENV-2 - must be held in mind for every diversity comparison below: DENV-2's low
 polymorphism partly reflects one successful clone's expansion, and we flag wherever
 this changes an interpretation rather than hiding it in the cohort description.
@@ -234,8 +255,12 @@ sites are not polymorphic in the field, which is itself the finding.
 ## 4.4 Headline site 1: DENV-2 E71 - a completed replacement inside the antibody footprint
 
 Residue 71 sits in the 2D22 structural footprint (4UIF contacts 67-73) and inside
-both EDE contact sets. The dataset reference carries E71; 99.4% of 2023+ isolates
-carry A71 (Figure F_headline_alleles.png). The clade-stratified check is essential
+both EDE contact sets. The dataset reference carries E71. Two precise statements
+delimit the replacement. In the reference-relative view over the full QC-passed
+cohort, 1448/1577 isolates (91.8%) carry E71A (2 further isolates carry E71D). In
+the majority-allele view, which requires a complete aligned E translation and so
+covers 872 isolates at residue 71, alanine is the majority allele at 99.4%
+(867/872) (Figure F_headline_alleles.png). The clade-stratified check is essential
 to the interpretation: A71 is fixed in every sampled 2II_F.1.1-family isolate
 (n=865: 2II_F.1.1, .1.1.3, .1.1.5, .1.1.6, .1.1.8, .1.3.1, .2.3) and absent from
 the co-circulating 2V_A.2 and 2III_D.1.2 isolates, which retain E71. So this is a
@@ -331,6 +356,56 @@ but that in-vitro escape maps and field variability measure different things;
 EERS is a prioritizer of what is actually expanding, not a predictor of what a
 laboratory selection would find. The one wild-recovered escape site (T329A) is
 caught by the atlas machinery even at 0.14% frequency.
+
+## 4.8 Structural interpretation of E71A: contact geometry against 2D22, EDE1 C8 and EDE2 B7
+
+E71A sits inside three structural footprints (2D22, EDE1 C8, EDE2 B7), so we asked
+what the substitution does to each interface using the co-crystal structures
+directly (code/e71_structural.py; results/e71_structural.json). For each PDB
+structure we enumerated every Fab residue with an atom within 6 Angstrom of any
+E71 atom and split the contacts by which E71 atoms mediate them: backbone and CB
+atoms (which alanine retains) versus the glutamate side-chain atoms CG, CD, OE1 and
+OE2 (which E->A deletes). Numbering anchors N67, W101 and N153 were verified in all
+three structures before analysis. The result is a clean mechanistic split.
+
+| Antibody complex | E71 in structure | Fab residues within 6A of E71 | Close (<4A) side-chain contacts deleted by E->A | Interpretation |
+|---|---|---|---|---|
+| 2D22 (4UIF) | Ala | 4 (light-chain F55, G56, G57) | 0 | Contact is backbone-only (CA); the co-crystal E already carries A71 |
+| EDE1 C8 (4UTA) | Glu | 2 (light-chain W94, both copies) | 0 closest deleted-atom contact at 4.05-4.08 A | Side chain packs against W94 at the edge of the interface; E->A removes that packing surface |
+| EDE2 B7 (4UT6) | Glu | 8 (light-chain K95, N100, P100, D100, both copies) | 4 (K95 at 3.07-3.18 A, N100 at 3.25-3.26 A) | E71 carboxylate makes salt-bridge-geometry contact with K95 and H-bond contact with N100; E->A deletes both |
+
+Three conclusions follow. First, for 2D22 the substitution is structurally silent:
+the 4UIF complex was solved with an E protein that already carries alanine at
+residue 71, and the only 2D22 contacts at this position run through the backbone
+carbonyl/CA region, which E->A does not alter. This is consistent with 2D22 escape
+mapping to the DIII lateral ridge (R323G) rather than to residue 71. Second, for
+the broadly neutralizing EDE class the substitution is structurally meaningful:
+the E71 carboxylate sits at salt-bridge distance from EDE2 B7 light-chain K95
+(3.1 A) and hydrogen-bond distance from N100 (3.3 A), and packs against EDE1 C8
+light-chain W94; alanine deletes the carboxylate and with it these contacts. Third,
+the direction of the effect is therefore asymmetric in exactly the direction the
+ADE framework worries about: the type-specific 2D22-class interface is untouched,
+while the cross-reactive EDE-class interface loses specific contacts in the viral
+background that now dominates global DENV-2. We state this as contact geometry, not
+binding energetics - no binding free energies were computed - but the prediction is
+sharp and testable: EDE-class antibodies should neutralize 2II_F.1.1-family isolates
+less efficiently than E71-carrying DENV-2, while 2D22-class antibodies should be
+unaffected. Both antibody classes and the isolates needed for the test are named in
+this atlas.
+
+## 4.9 Gate self-seal verdicts
+
+| Gate | Verdict | Basis |
+|---|---|---|
+| G1 (data) | PASS | 1422 DENV-1 and 1577 DENV-2 QC-passed isolates (required >=300 / >=400) |
+| G2 (positive control) | PARTIAL | Primary clause not met: of the 6 curated published escape/epitope ground-truth sites (3 per serotype), only T329 (DENV-1) is genuinely variable in the field - the >=3-per-serotype recovery clause failed for both serotypes. Secondary clause met: mechanistic conservation controls (N67, N153, W101) are frozen in both serotypes, and one published therapeutic-escape allele (T329A) is recovered in wild DENV-1. |
+| G3 (atlas) | PASS | Per-residue variability maps delivered for both serotypes with frequencies, geography and epitope annotation (Figures 2-3, Appendix B) |
+| G4 (benchmark) | PASS (negative reported as-is) | EERS AUROC 0.34/0.22, no gain over baselines, 0/20 top-N ground-truth hits; reported without re-fishing, as locked |
+| G5 (cross-serotype synthesis) | PASS | Section 4.6: frozen cross-reactive machinery, drifting type-specific targets, tied to ADE/reinfection hypotheses with citations |
+
+G2 is the deliberate honest-partial: the locked gate was designed so that a field
+in which laboratory escape mutations do not circulate scores PARTIAL rather than
+forcing either a pass claim or a re-analysis after outcomes were seen.
 
 # 5. The tool: atlas + EERS watchlist
 
@@ -431,6 +506,10 @@ organizes are the durable contribution.
 8. NCBI Virus / NCBI Datasets CLI v2 (18.37.0). https://www.ncbi.nlm.nih.gov/labs/virus
 9. Nextclade 3.23.0; community/v-gen-lab/dengue datasets.
    https://github.com/nextstrain/nextclade_data
+10. Halstead SB. Dengue antibody-dependent enhancement: knowns and unknowns.
+    Microbiol Spectr 2014;2(6).
+11. Katzelnick LC et al. Antibody-dependent enhancement of severe dengue disease in
+    humans. Science 2017;358:929-32.
 
 # Appendix A. Reproducibility
 
@@ -517,3 +596,83 @@ Section 4 watchlists (T4, results/) carry the substitution-level view.
     python3 code/fix_mapping.py && code/build_epitopes.py && code/atlas_analysis.py \
         && code/atlas_v2.py && code/stats_tests.py && code/make_figures.py && code/make_tables.py
     pandoc paper/paper.md --pdf-engine=pdflatex -o paper/paper.pdf
+
+# Appendix D. Methods detail
+
+## D.1 Coordinate frames and epitope mapping
+
+Each serotype is analyzed on its own coordinate frame: the consensus of the
+nextclade-aligned E translations of its QC-passed cohort (495 residues in both
+serotypes here). Reference-relative substitutions are called by nextclade against
+each dataset's own reference sequence (community/v-gen-lab/dengue/denv1 and /denv2).
+Literature residue numbers, including the EDE contact sets and the DENV-1 1F4 escape
+sites, are stated in DENV-2 (NC_001474) or DENV-1 convention and were mapped onto
+each serotype's consensus frame by global pairwise alignment of the NC_001474 E
+sequence to each consensus (code/fix_mapping.py; anchors N67, W101, N153 verified to
+land on the expected residues in both frames before any epitope was mapped).
+Structural footprints from 4C2I and 4UIF were re-derived from the deposited
+coordinates by all-atom contact analysis at 6 Angstrom (code/pdb_contacts.py; Fab
+chains vs E chains listed in the script header). The EDE1 C8 / EDE2 B7 contact sets
+are the published 4UTA/4UT6 contact analyses (DENV-2 numbering), mapped per
+serotype as above.
+
+## D.2 Coverage accounting: why the two views have different denominators
+
+The reference-relative view (atlas_denv1/denv2.csv) counts any QC-passed isolate for
+which nextclade produced an amino-acid call at that position - 1576/1577 DENV-2
+isolates have E-gene calls, and 1450/1577 have a call at residue 71. The
+majority-allele view (atlas_denv1_v2.csv, atlas_denv2_v2.csv) counts, at each
+position, only isolates whose aligned E translation carries a called residue there.
+DENV-1 coverage is 1398-1418 of 1422 across the protein. DENV-2 coverage is 871-872
+of 1577: 873 QC-passed DENV-2 isolates have a complete aligned E translation emitted
+by nextclade, and the remaining 704 - predominantly E-region partial assemblies that
+pass the >=1400 nt length filter and the good/mediocre overall-QC bar but yield no
+full E CDS translation - contribute to the reference-relative view only. Every
+majority/minority allele frequency in this paper is therefore reported with its
+per-position denominator (n_obs in the atlas tables), and headline claims use the
+reference-relative denominator (1577) where a cohort-wide statement is needed. The
+two E71 statements - 91.8% of the full cohort carrying E71A, and 99.4% majority
+frequency among the 872 fully translated isolates - are the same event seen through
+the two denominators; both are stated wherever the site is discussed.
+
+## D.3 Structural contact protocol
+
+Contacts are all-atom unions within 6 Angstrom between the E-protein chains and the
+Fab chains of each PDB entry (chain assignments: 4UIF E = A/C/E, Fab = G-L; 4C2I
+E = A/C/E, Fab = H/L/M/N; 4UTA and 4UT6 E = A/B, Fab = H/I/L/M), computed with a
+spatial hash at 7 Angstrom cell size (code/pdb_contacts.py). For the E71 analysis
+(code/e71_structural.py) contacts are additionally split by atom class: glutamate
+atoms beyond CB (CG, CD, OE1, OE2) are deleted by the E->A substitution, so a Fab
+contact whose closest approach to E71 is through those atoms is a contact E71A
+removes. A 4 Angstrom cutoff on the deleted-atom distance marks close contacts
+(salt-bridge/hydrogen-bond geometry). No rotamer repacking, minimization or
+binding-energy estimation was performed; all statements are geometric.
+
+## D.4 Statistics
+
+DIII enrichment: Mann-Whitney U over per-position minority-allele fractions, DIII
+(residues 298-394) vs the rest of E, two-sided, per serotype. Ground-truth recovery:
+Fisher exact test of ground-truth sites among epitope-annotated variable positions
+at the 0.5% threshold. Cross-serotype profile correlation: Spearman over the 495
+alignment-mapped shared positions. EERS benchmark: AUROC and top-20 enrichment of
+the six published ground-truth sites against two baselines (frequency-only and
+conservation-only ranking), exactly as locked in GATES_LOCKED.md. No multiple-testing
+correction is applied to the three pre-specified tests; no additional tests were run
+after outcomes were seen.
+
+## D.5 EERS definition and its deliberate simplicity
+
+EERS(p) = f x (1 + 0.5e) x (1.5 if cross-serotype conserved else 1.0), with f the
+minority-allele fraction, e the number of structural-epitope memberships, identical
+to the denv3-4 slice so scores compose across all four serotypes. The weights
+(0.5, 1.5) were fixed in the locked gates before data was fetched and were not tuned
+against the benchmark - which is exactly why the G4 negative result is interpretable
+rather than a tuning failure.
+
+## D.6 Pipeline versions and environment
+
+NCBI Datasets CLI 18.37.0; Nextclade 3.23.0 with community/v-gen-lab/dengue/denv1
+and /denv2 datasets; Python 3.10 with biopython, pandas, numpy, scipy, matplotlib;
+pandoc with pdflatex for the PDF. Single sandbox, no external credentials, no money
+spent. All scripts are in code/ and re-run deterministically against the byte-locked
+inputs in data/.

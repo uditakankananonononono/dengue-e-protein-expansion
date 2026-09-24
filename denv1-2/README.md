@@ -12,7 +12,9 @@ Reproduce end-to-end (<15 min, 2-core/2GB):
 4. Paper: pandoc paper/paper.md --pdf-engine=pdflatex -> paper/paper.pdf.
 Gates: GATES_LOCKED.md (standalone first commit, before any data was fetched).
 Results manifest: results/RESULTS_MANIFEST.sha256.
-Findings: DENV-2 E71A (2D22/EDE-footprint residue) is fixed in the dominant 2II_F.1.1 lineage (99.4% of 2023+ isolates);
+Findings: DENV-2 E71A (2D22/EDE-footprint residue) is fixed in the dominant 2II_F.1.1 lineage
+(91.8% of all 1577 QC-passed 2023+ isolates; 99.4% majority frequency among the 872 isolates
+with complete aligned E translations);
 DENV-1 E155 (1F4 footprint) minority allele at 37%; DENV-1 E329 T329A escape allele
 (PMC3312934) observed at low frequency in the wild. Cross-reactive EDE/FLE epitopes frozen.
 Honest negative: EERS shows no AUROC gain over baselines; published in-vitro escape sites
